@@ -74,7 +74,7 @@ möglich einzuhalten.
 | Der Request (-Body) war fehlerhaft. Der Response Body enthält einen Fehler, der weitere Informationen bereitstellt.
 
 | `401 Unauthorized`
-| Der Client ist nicht authentifiziert und darf nicht auf die Ressource zuzugreifen.
+| Der Client ist nicht authentifiziert und darf nicht auf die Ressource zugreifen.
 
 | `404 Not Found`
 | Die angeforderte Ressource existiert nicht.
@@ -100,7 +100,7 @@ authentifiziert. Der Server erzeugt einen Token und übergibt diesen an den Clie
 Alle <<resources,Ressourcen>> sind so gesichert, dass nur authentifizierte Akteure auf diese zugreifen können. Die
 einzige Ausnahme bildet dabei der Login-Endpunkt.
 
-Der Login-Endpunkt empfängt und verarbeitet Nutername und Passwort. Bei erfolgreichem Login, wird dem Client ein Token
+Der Login-Endpunkt empfängt und verarbeitet Nutzername und Passwort. Bei erfolgreichem Login, wird dem Client ein Token
 zurückgesendet, der für weitere Anfragen an den Server verwendet wird.
 
 [[auth-auth]]
@@ -137,7 +137,7 @@ include::{snippets}/security/login/response-body.adoc[]
 [[resources-account]]
 === Nutzerkonto
 
-Liefert Informationen zu aktuellen Nutzerkonto.
+liefert Informationen zu aktuellen Nutzerkonto.
 
 [[resources-account-retrieve]]
 ==== Nutzerinformationen abrufen
@@ -168,7 +168,7 @@ include::{snippets}/security/me/response-body.adoc[]
 === Studierende
 
 Studierende sind all jene, die diesen Service verwenden werden. Die Endpunkte liefern studienrelevante Informationen,
-anhand derer Studierende ihre Daten einsehen können. Darunter auch die solche, die den Fortschritt der StudentIn
+anhand derer Studierende ihre Daten einsehen können. Darunter auch solche, die den Fortschritt der StudentIn
 anzeigen.
 
 [[resources-student-retrieve]]
