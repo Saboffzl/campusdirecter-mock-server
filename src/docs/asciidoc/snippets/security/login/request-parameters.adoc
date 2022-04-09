@@ -2,9 +2,9 @@
 |Parameter|Beschreibung
 
 |`+username+`
-|Nutzername des zu authentifizierenden Akteurs
+|Nutzername zur Authentifizierung
 
 |`+password+`
-|Passwort des zu authentifizierenden Akteurs
+|Passwort zur Authentifizierung
 
 |===
